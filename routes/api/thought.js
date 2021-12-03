@@ -1,4 +1,4 @@
-const router = require('express').Router();
+/*  const router = require('express').Router();
 
 const {
     getThoughts,
@@ -29,4 +29,4 @@ router
     .route('/:thoughtId/reactions/:reactionId')
     .delete(deleteReaction);
 
-module.exports = router;
+module.exports = router;  */

@@ -10,7 +10,7 @@ app.use(express.static('public'));
 // app.use(routes);
 
 // Use this to log mongo queries being executed!
-
+// mongoose.set('debug', true);
 
 db.once('open', () => {
 
