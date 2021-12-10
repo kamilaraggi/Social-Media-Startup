@@ -1,4 +1,4 @@
-/* const { Schema, model } = require('mongoose'); 
+ /* const { Schema, model } = require('mongoose'); 
 
 const ReactionSchema = new Schema({
     reactionId: {
@@ -17,7 +17,7 @@ const ReactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: (createdAtVal) => dateFormat(createdAtVal)
+       // get: (createdAtVal) => dateFormat(createdAtVal)
     }
 },
     {
@@ -28,5 +28,6 @@ const ReactionSchema = new Schema({
         id: false
     }
 );
+const Reaction = model('Reaction', ReactionSchema);
 
-module.exports = ReactionSchema;  */
+module.exports = ReactionSchema;   */
